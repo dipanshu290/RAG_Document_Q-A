@@ -1,14 +1,6 @@
 # 📚 Research Paper Q&A Chatbot
 
-
 A **Streamlit-based RAG (Retrieval-Augmented Generation) Chatbot** that allows users to upload research papers (PDF) and ask questions based on their content. Powered by **Groq LLM** and **OpenAI embeddings**, it supports **English** and **Hindi**, voice input, and text-to-speech (TTS) responses.
-
----
-
-🎥 Check out the **video preview** and announcement post on LinkedIn:  
-[🚀 Research Paper Q&A Chatbot – LinkedIn Demo](https://www.linkedin.com/feed/update/urn:li:activity:7365394386513301504/)
-
-This post includes a walkthrough of the app in action, key features, and how it empowers research workflows using AI.
 
 ---
 
@@ -43,18 +35,21 @@ This post includes a walkthrough of the app in action, key features, and how it 
 ## 🛠️ Installation & Setup
 
 1. **Clone the Repository**
+
    ```bash
    git clone <your-repo-url>
    cd <repo-folder>
    ```
 
 2. **Create & Activate a Virtual Environment**
+
    ```bash
    python -m venv venv
    source venv/bin/activate      # On Windows: venv\Scripts\activate
    ```
 
 3. **Install Dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -70,12 +65,13 @@ This post includes a walkthrough of the app in action, key features, and how it 
 ## 🚀 Running the Streamlit App
 
 1. Start the app:
+
    ```bash
    streamlit run app.py
    ```
 
 2. Enter your **Groq API Key** and **OpenAI API Key** in the sidebar.
-   * Groq key must start with `gsk_`.
+   - Groq key must start with `gsk_`.
 
 3. Select your **language** (English or Hindi).
 
@@ -84,8 +80,8 @@ This post includes a walkthrough of the app in action, key features, and how it 
 5. Enter your **query** (or use voice input).
 
 6. Click **Search** to generate an answer.
-   * The response will appear in a styled card.
-   * TTS playback will automatically play the answer.
+   - The response will appear in a styled card.
+   - TTS playback will automatically play the answer.
 
 7. Explore **document similarity** for context reference.
 
@@ -125,6 +121,6 @@ This post includes a walkthrough of the app in action, key features, and how it 
 
 ## 📝 Credits
 
-- Developed by **Biswojit Bal**
+- Developed by **Dipanshu Mallik**
 - Powered by **Groq** & **OpenAI**
 - Built with **Streamlit**, **LangChain**, **FAISS**, and **Python**
